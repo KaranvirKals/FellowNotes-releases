@@ -9,7 +9,8 @@ save automatically and can be backed up to iCloud Drive.
 
 **[⬇ Download the latest version](https://github.com/KaranvirKals/FellowNotes-releases/releases/latest)** ·
 [All versions](https://github.com/KaranvirKals/FellowNotes-releases/releases) ·
-Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later
+Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later ·
+**First time opening it? macOS will block it once — [here's how to open it](#opening-it-the-first-time)**
 
 ![The Fellow Notes library](screenshots/01-library.png)
 
@@ -28,6 +29,7 @@ Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later
 - [Backups and sync](#backups-and-sync)
 - [Automatic updates](#automatic-updates)
 - [Install](#install)
+- [Opening it the first time](#opening-it-the-first-time)
 - [Privacy](#privacy)
 - [Questions](#questions)
 
@@ -181,13 +183,46 @@ Settings are under **••• → Check for Updates**.
 1. **[Download the latest version](https://github.com/KaranvirKals/FellowNotes-releases/releases/latest)** —
    under *Assets*, click `FellowNotes-<version>.dmg`.
 2. Open the downloaded file and drag **Fellow Notes** onto **Applications**.
-3. Open Fellow Notes from your Applications folder.
-4. The first time, macOS may say it can't check the app (it isn't from the App Store). Click
-   **Done**, open **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next
-   to Fellow Notes, then confirm. You only do this once — updates install without it.
+3. Open Fellow Notes from your Applications folder. The first time, macOS blocks it — follow
+   [Opening it the first time](#opening-it-the-first-time) below. You only do this once; updates
+   install without it.
 
 **Requirements:** a Mac with Apple silicon (M1, M2, M3, M4 or later) and macOS 13 Ventura or later.
 Intel Macs aren't supported yet.
+
+## Opening it the first time
+The first time you open Fellow Notes, macOS shows this:
+
+<img src="screenshots/00-not-opened.png" alt="&quot;Fellow Notes&quot; Not Opened — Apple could not verify &quot;Fellow Notes&quot; is free of malware" width="300">
+
+This appears for any app downloaded from outside the App Store that hasn't been through Apple's paid
+review ("notarization") — it doesn't mean anything was found wrong with it. **Don't click Move to
+Trash.** Use either way below; you only need to do it once.
+
+### Way 1: System Settings (no typing)
+1. Click **Done** in the message.
+2. Open **System Settings** (Apple menu  → System Settings…) and click **Privacy & Security** in the
+   sidebar.
+3. Scroll down to the **Security** section. You'll see *"Fellow Notes" was blocked to protect your
+   Mac.* Click **Open Anyway** next to it.
+   (This button shows for about an hour after the message — if it isn't there, open Fellow Notes
+   again, click **Done**, and come back.)
+4. Click **Open Anyway** again in the box that appears, and enter your Mac password or use Touch ID.
+5. Fellow Notes opens. From now on it opens normally, like any other app.
+
+### Way 2: Terminal (one line)
+1. Open **Terminal** (press ⌘Space, type *Terminal*, press Return).
+2. Paste this line and press Return:
+   ```
+   xattr -dr com.apple.quarantine "/Applications/Fellow Notes.app"
+   ```
+3. Open Fellow Notes from Applications. It opens normally from now on.
+
+This removes the "downloaded from the internet" mark that macOS puts on the app — the same thing
+Open Anyway does.
+
+> Right-clicking the app and choosing **Open** no longer gets past this message on recent versions of
+> macOS; use one of the ways above.
 
 ## Privacy
 - Your notes are stored on your Mac (in `~/Library/Application Support/Fellow Notes`). There's no
@@ -198,6 +233,10 @@ Intel Macs aren't supported yet.
 
 ## Questions
 **Is it free?** Yes.
+
+**macOS says "Fellow Notes" Not Opened / Apple could not verify it is free of malware.** That's the
+one-time message for apps from outside the App Store. Click **Done**, then follow
+[Opening it the first time](#opening-it-the-first-time).
 
 **Do I need to download each new version?** No. Fellow Notes offers each new version itself and
 installs it for you.
