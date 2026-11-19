@@ -10,7 +10,7 @@ save automatically and can be backed up to iCloud Drive.
 **[⬇ Download the latest version](https://github.com/KaranvirKals/FellowNotes-releases/releases/latest)** ·
 [All versions](https://github.com/KaranvirKals/FellowNotes-releases/releases) ·
 Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later ·
-**First time opening it? macOS will block it once — [here's how to open it](#opening-it-the-first-time)**
+**Signed and approved by Apple** — it opens like any other app (version 1.0.0 needed [one extra step](#opening-it-the-first-time))
 
 ![The Fellow Notes library](screenshots/01-library.png)
 
@@ -183,15 +183,18 @@ Settings are under **••• → Check for Updates**.
 1. **[Download the latest version](https://github.com/KaranvirKals/FellowNotes-releases/releases/latest)** —
    under *Assets*, click `FellowNotes-<version>.dmg`.
 2. Open the downloaded file and drag **Fellow Notes** onto **Applications**.
-3. Open Fellow Notes from your Applications folder. The first time, macOS blocks it — follow
-   [Opening it the first time](#opening-it-the-first-time) below. You only do this once; updates
-   install without it.
+3. Open Fellow Notes from your Applications folder. From version 1.0.1 it's signed by its developer and
+   approved by Apple, so it opens like any other app (macOS may ask once whether to open an app from the
+   internet — click **Open**).
 
 **Requirements:** a Mac with Apple silicon (M1, M2, M3, M4 or later) and macOS 13 Ventura or later.
 Intel Macs aren't supported yet.
 
 ## Opening it the first time
-The first time you open Fellow Notes, macOS shows this:
+**Version 1.0.1 and later don't need this** — they're signed and approved by Apple. Only the first version
+(1.0.0) shows the message below; updating to the newest version (••• → Check for Updates) fixes it.
+
+With version 1.0.0, the first time you open Fellow Notes, macOS shows this:
 
 <img src="screenshots/00-not-opened.png" alt="&quot;Fellow Notes&quot; Not Opened — Apple could not verify &quot;Fellow Notes&quot; is free of malware" width="300">
 
@@ -234,9 +237,9 @@ Open Anyway does.
 ## Questions
 **Is it free?** Yes.
 
-**macOS says "Fellow Notes" Not Opened / Apple could not verify it is free of malware.** That's the
-one-time message for apps from outside the App Store. Click **Done**, then follow
-[Opening it the first time](#opening-it-the-first-time).
+**macOS says "Fellow Notes" Not Opened / Apple could not verify it is free of malware.** That only
+happens with the first version, 1.0.0. Download the newest version (it's signed and approved by Apple),
+or follow [Opening it the first time](#opening-it-the-first-time).
 
 **Do I need to download each new version?** No. Fellow Notes offers each new version itself and
 installs it for you.
