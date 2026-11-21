@@ -14,6 +14,16 @@ Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later ·
 
 ![The Fellow Notes library](screenshots/01-library.png)
 
+### New in 1.1
+- **Handwriting is searchable** — and **Convert to Text** turns handwriting into typed text
+- **Lasso** selection, and rough shapes that **snap** into neat lines, boxes and circles
+- **Record audio** with your notes — select anything you wrote to hear that moment
+- **Flashcards** with spaced review, made from your tagged lines
+- **Present** page by page with a laser pointer, on a projector or in a video call
+- **Lock** private notebooks with Touch ID
+- **Custom tags**, **side by side**, **Print**, **Focus mode** and **Night Paper**
+- A cloud button that turns **green, orange or red** with your backup
+
 ---
 
 ## Contents
@@ -23,6 +33,8 @@ Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later ·
 - [Whiteboards](#whiteboards)
 - [Notebooks, paper and covers](#notebooks-paper-and-covers)
 - [Organize and find](#organize-and-find)
+- [Study, record and present](#study-record-and-present)
+- [Private notebooks](#private-notebooks)
 - [AI study assistant](#ai-study-assistant-optional)
 - [Export and share](#export-and-share)
 - [Themes and style](#themes-and-style)
@@ -47,12 +59,16 @@ drawing tablet.
 - **Tables** — Tab moves between cells
 - **Pictures** — drag a photo or screenshot onto the page
 - **Select** anything to move, resize, recolor or delete it, with alignment guides that line things
-  up with each other and the page
+  up with each other and the page — drag a free **lasso** around handwriting to pick just that
+- **Neat shapes**: draw a rough circle, box or line and hold the pen still for a moment
+- **Convert to Text**: select handwriting and turn it into a typed text box (⌘Z brings it back)
 - **Tags** on any line: To Do (with a checkbox), Important, Question, Follow Up, Board Review and
-  Definition — collected in one place in the library
+  Definition, plus **your own tags** with their own name, color and symbol — collected in one place in
+  the library
 - Unlimited **undo and redo**, and a **Deleted** list to bring back removed pages
 
 ![Writing and drawing in a notebook](screenshots/02-handwriting.png)
+![Lasso around handwriting, with Convert to Text](screenshots/22-lasso.png)
 
 ## Typed notes
 Text documents for typed notes, with simple formatting as you type: `#` for headings, **bold** (⌘B)
@@ -110,9 +126,11 @@ ribbon bookmark, elastic band, metal corners and a sticker.
 - **Folders** (and folders inside folders), each with its own color, symbol or emoji (780 to choose
   from) or picture
 - **Favorites** and **Recent** for what you use most
-- **Search** across every notebook, typed note and PDF — including handwriting-free scanned PDFs
-- **Tags** bring every To Do, Important line and Question from all your notes into one list; tick
-  To Dos off right there
+- **Search** across every notebook, typed note and PDF — including your **handwriting** and scanned
+  PDFs
+- **Side by side**: open two documents next to each other (View → Side by Side With)
+- **Tags** bring every To Do, Important line, Question and your own tags from all your notes into
+  one list; tick To Dos off right there; make, rename or delete your own tags
 - **Outline** and bookmarks to jump around long notebooks, and links between notes
 - Sort by name, date modified or date created; grid or list view; select several items to move,
   export or delete them at once
@@ -120,6 +138,34 @@ ribbon bookmark, elastic band, metal corners and a sticker.
 
 ![Customizing a folder](screenshots/08-folders.png)
 ![Every tagged line in one place](screenshots/09-tags.png)
+![Your own tags](screenshots/20-custom-tags.png)
+![Two documents side by side](screenshots/21-side-by-side.png)
+
+## Study, record and present
+- **Record audio** while you write (the microphone in the toolbar). Everything you write is linked to
+  the moment it was written: select it later to hear what was being said. During playback, what was
+  written later shows faintly until the recording reaches it.
+- **Flashcards**: lines you tag Board Review or Definition become cards by themselves — write
+  "term — meaning" for a front and a back — or choose **Make Flashcard** on any text box or highlight.
+  Review shows each card, then **Again / Hard / Good / Easy** decide when it comes back.
+- **Present** (⌥⌘P): your pages full screen, one at a time, with a laser pointer that fades. The
+  **Audience Window** shows only the page on a projector, second display or video call, while your
+  screen shows the next page and a timer.
+- **Focus mode** (⌃⌘F) hides everything but the page and a small tool bar; **Night Paper** makes pages
+  dark with light ink for late-night reading.
+
+![Recording with your notes](screenshots/19-recording.png)
+![Reviewing flashcards](screenshots/18-flashcards.png)
+![Presenting, with the presenter view](screenshots/17-present.png)
+![Night Paper](screenshots/23-night.png)
+
+## Private notebooks
+**Lock** a notebook from its ••• menu: opening it then asks for Touch ID or your Mac's password. A locked
+notebook shows a lock instead of its pages, is found by its title only, and keeps its tags and flashcards
+out of sight until you open it. (Locking hides it inside Fellow Notes; the files themselves aren't
+encrypted.)
+
+![Locked notebooks](screenshots/24-locked.png)
 
 ## AI study assistant (optional)
 Ask an assistant about the page or the whole notebook: **summarize**, **key points**, **quiz me**,
@@ -137,7 +183,8 @@ something.
 ## Export and share
 Export a notebook, a typed note or a PDF — all pages, the current page, selected pages or a range —
 as **PDF** (original PDF text stays selectable), **Word (.docx)**, **Markdown**, **plain text**, or
-**pictures (PNG or JPEG)**. Several items can be exported at once.
+**pictures (PNG or JPEG)**. Several items can be exported at once. **Print** (⌘P, or the printer in the
+toolbar) prints everything you added.
 
 ![Exporting](screenshots/11-export.png)
 
@@ -155,6 +202,8 @@ comfortable or roomy spacing; and four text sizes.
   choose. Each backup is checked after it's written, and nothing is ever lost converting it back.
 - Choose how many backups to keep (or how many days); older automatic backups remove themselves.
 - **Restore** any backup, with a safety copy of what you had first.
+- The **cloud button** shows how it's going: **green** when everything is backed up, **orange** while
+  backing up or with changes waiting, **red** if a backup failed.
 - **Sync between Macs** through iCloud Drive: when you open Fellow Notes it brings in a newer version
   saved on another Mac; if both changed, it asks which to keep.
 - A **sync panel** shows what's happening: when you close the app it saves, makes a backup and
