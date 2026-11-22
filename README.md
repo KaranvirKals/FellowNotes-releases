@@ -14,6 +14,11 @@ Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later ·
 
 ![The Fellow Notes library](screenshots/01-library.png)
 
+### New in 1.2.1
+- **Import from iPhone or iPad works** — photos land on your page, scans are added as pages
+- Cleaner **icon toolbars** for text boxes, selections, pictures, shapes, sticky notes and tables
+- **Deleting a text box is one click** — the × at its corner, the trash can, or Esc then ⌫
+
 ### New in 1.2
 - **Import from iPhone or iPad** — take a photo or scan a page straight onto your notes
 - **Elements** — save drawings, diagrams and pictures and reuse them on any page
