@@ -14,6 +14,14 @@ Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later ·
 
 ![The Fellow Notes library](screenshots/01-library.png)
 
+### New in 1.2
+- **Import from iPhone or iPad** — take a photo or scan a page straight onto your notes
+- **Elements** — save drawings, diagrams and pictures and reuse them on any page
+- **Searchable recordings** — what was said is turned into text on your Mac and found by search
+- A cleaner **Flashcards** screen with **settings**, **Practice**, **Undo**, picture cards, review stats and a Dock badge
+- **Today's Note** (⌥⌘T), **Version History** for each notebook, and a **pen while presenting**
+- **Rotate and crop pictures**, **straight pen lines** with ⇧, and a Backups window that fits the screen
+
 ### New in 1.1
 - **Handwriting is searchable** — and **Convert to Text** turns handwriting into typed text
 - **Lasso** selection, and rough shapes that **snap** into neat lines, boxes and circles
