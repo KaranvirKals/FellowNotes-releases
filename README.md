@@ -14,6 +14,14 @@ Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later ·
 
 ![The Fellow Notes library](screenshots/01-library.png)
 
+### New in 1.3
+- **Find an Action (⌘K)** — type a few letters of anything Fellow Notes can do, or a notebook's name
+- **Dictate** (⌥⌘D) — speak and the words are typed where the cursor is
+- **Notebooks in Spotlight** — find your notes with ⌘Space
+- **Favorite pens**, **Go to Page** (⌘G), **scribble to erase** and **View Only**
+- **Flashcards out and in** — export for Anki, import decks from Anki or a spreadsheet
+- A formatting bar that shows where you are, smoother zooming, and a full check-up: safer backups and syncing, cleaner icon toolbars
+
 ### New in 1.2.1
 - **Import from iPhone or iPad works** — photos land on your page, scans are added as pages
 - Cleaner **icon toolbars** for text boxes, selections, pictures, shapes, sticky notes and tables
