@@ -14,6 +14,10 @@ Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later ·
 
 ![The Fellow Notes library](screenshots/01-library.png)
 
+### New in 1.4.1
+- **One shared set of backups** — backups from your Mac and iPad are named by date and look like one set; syncing works as before
+- Clearer choices when notes changed on this Mac and in a newer backup
+
 ### New in 1.4.0
 - **Templates for everything** — 53 free text templates (lecture notes, SOAP note, meeting notes, planners…), 28 new notebook layouts and 26 more whiteboards
 - **Import PowerPoint and Keynote slides** — each slide becomes a page you can write on
