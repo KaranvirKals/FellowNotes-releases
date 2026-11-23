@@ -14,6 +14,11 @@ Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later ·
 
 ![The Fellow Notes library](screenshots/01-library.png)
 
+### New in 1.3.1
+- **Make the toolbar yours** — drag buttons where you want them, or off the toolbar; every button is there to start
+- **Settings in one place** (⌘,) and a tidier menu
+- A toolbar that **fits any window**, **Present** from the toolbar, flashcard badges you can turn off, and many fixes
+
 ### New in 1.3
 - **Find an Action (⌘K)** — type a few letters of anything Fellow Notes can do, or a notebook's name
 - **Dictate** (⌥⌘D) — speak and the words are typed where the cursor is
