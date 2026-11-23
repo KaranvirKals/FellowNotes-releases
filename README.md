@@ -14,6 +14,13 @@ Free · Mac with Apple silicon (M1 or later), macOS 13 Ventura or later ·
 
 ![The Fellow Notes library](screenshots/01-library.png)
 
+### New in 1.4.0
+- **Templates for everything** — 53 free text templates (lecture notes, SOAP note, meeting notes, planners…), 28 new notebook layouts and 26 more whiteboards
+- **Import PowerPoint and Keynote slides** — each slide becomes a page you can write on
+- **Side by side** by dragging a tab, and **Search All Documents** (⇧⌘F) from any notebook
+- **Simpler recordings** (record, play and delete from the microphone), a **sidebar you can hide** and **folders that open and close**
+- **Safer and more private**: recordings survive a crash, Spotlight is off unless you turn it on, and many fixes from a full review
+
 ### New in 1.3.1
 - **Make the toolbar yours** — drag buttons where you want them, or off the toolbar; every button is there to start
 - **Settings in one place** (⌘,) and a tidier menu
